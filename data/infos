@@ -1,0 +1,51 @@
+id;nome;idade;cidade;setor;cargo;linguagem;experiencia;salario;ativo
+1;Ryan;19;Londrina;1;Desenvolvedor;Java;1;3500;true
+2;Lucas;24;Curitiba;2;Analista;Python;3;4800;true
+3;Ana;31;São Paulo;3;Gerente;Java;8;7500;true
+4;Pedro;27;Maringá;1;Desenvolvedor;C++;4;5200;true
+5;Marina;22;Londrina;4;Estagiária;Java;1;1800;true
+6;Carlos;35;Curitiba;2;Arquiteto;Java;10;9500;true
+7;Julia;28;São Paulo;3;Analista;Python;5;6100;true
+8;Rafael;41;Rio de Janeiro;5;Gerente;C#;15;11000;true
+9;Beatriz;25;Londrina;1;Desenvolvedora;JavaScript;3;4500;true
+10;João;30;Maringá;4;DevOps;Python;7;7800;true
+11;Gabriel;23;Curitiba;1;Desenvolvedor;Java;2;3900;true
+12;Larissa;29;São Paulo;2;Analista;SQL;6;5700;true
+13;Felipe;37;Londrina;3;Gerente;Java;12;9200;true
+14;Camila;26;Maringá;1;Desenvolvedora;Kotlin;4;5100;true
+15;Bruno;33;Curitiba;5;Administrador;Linux;9;6900;true
+16;Isabela;21;Londrina;4;Estagiária;Python;1;1700;true
+17;Mateus;32;São Paulo;2;Analista;Java;7;6500;true
+18;Sofia;27;Curitiba;1;Desenvolvedora;Go;5;6200;true
+19;Daniel;39;Maringá;3;Gerente;C#;13;8900;true
+20;Amanda;24;Londrina;1;Desenvolvedora;Java;3;4300;true
+21;Thiago;36;Curitiba;5;DevOps;Docker;10;8200;true
+22;Letícia;28;São Paulo;2;Analista;SQL;6;5900;true
+23;Eduardo;45;Londrina;3;Arquiteto;Java;18;12500;true
+24;Nicole;23;Maringá;4;Estagiária;JavaScript;1;1750;true
+25;Gustavo;31;Curitiba;1;Desenvolvedor;Rust;7;7200;true
+26;Manuela;26;Londrina;2;Analista;Python;4;5300;true
+27;Henrique;34;São Paulo;5;Administrador;Linux;11;7600;true
+28;Valentina;29;Curitiba;3;Gerente;Java;8;8700;true
+29;Leonardo;22;Maringá;1;Desenvolvedor;C++;2;3600;true
+30;Clara;38;Londrina;2;Analista;Java;14;8100;true
+31;Enzo;25;Curitiba;1;Desenvolvedor;TypeScript;4;5000;true
+32;Helena;30;São Paulo;4;DevOps;Python;7;7400;true
+33;Arthur;27;Londrina;1;Desenvolvedor;Java;5;5600;true
+34;Laura;35;Maringá;3;Gerente;C#;10;9000;true
+35;Vinícius;24;Curitiba;2;Analista;SQL;3;4600;true
+36;Alice;28;Londrina;1;Desenvolvedora;Kotlin;6;6300;true
+37;Miguel;40;São Paulo;5;Arquiteto;Java;16;11800;true
+38;Yasmin;23;Maringá;4;Estagiária;Python;1;1650;true
+39;André;33;Curitiba;1;Desenvolvedor;Go;8;7100;true
+40;Heloísa;26;Londrina;2;Analista;Java;4;5400;true
+41;Caio;29;São Paulo;3;Gerente;JavaScript;7;8500;true
+42;Luiza;32;Maringá;5;DevOps;Docker;9;7900;true
+43;Diego;37;Curitiba;1;Desenvolvedor;C++;12;8300;true
+44;Maitê;21;Londrina;4;Estagiária;Java;1;1600;true
+45;Murilo;30;São Paulo;2;Analista;Python;6;6100;true
+46;Emanuel;43;Maringá;3;Arquiteto;Java;17;12100;true
+47;Cecília;25;Curitiba;1;Desenvolvedora;Rust;3;4900;true
+48;Antônio;36;Londrina;5;Administrador;Linux;11;7300;true
+49;Sarah;27;São Paulo;2;Analista;SQL;5;5800;true
+50;Bernardo;31;Maringá;1;Desenvolvedor;Java;8;7000;true
