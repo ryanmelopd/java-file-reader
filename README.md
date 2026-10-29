@@ -1,11 +1,10 @@
 # ☕ Java File Reader
 
-Aplicação desenvolvida em Java para leitura e interpretação dinâmica de arquivos de texto.
+Aplicação desenvolvida em Java para leitura e interpretação dinâmica de arquivos de texto (TXT).
 
 O projeto permite carregar arquivos TXT locais ou disponibilizados através de uma URL, interpretar seus dados e organizá-los de forma dinâmica utilizando Collections, Generics e Stream API.
 
-> 🚧 **Status:** Em desenvolvimento <br>
-> 📄 **Formato suportado atualmente:** TXT
+> 📄 **Formato suportado:** TXT
 
 ---
 
@@ -17,7 +16,7 @@ A aplicação não depende de um modelo específico de dados. Os atributos são 
 
 Por exemplo, o mesmo leitor pode interpretar:
 
-```text
+```
 nome;idade;cidade
 Ryan;19;Londrina
 Lucas;24;Curitiba
@@ -25,7 +24,7 @@ Lucas;24;Curitiba
 
 ou:
 
-```text
+```
 produto;preco;categoria
 Mouse;150;Periférico
 Teclado;300;Periférico
@@ -37,15 +36,13 @@ sem alterar o código responsável pela interpretação.
 
 ## ⚙️ Funcionalidades
 
-Atualmente, o projeto permite:
-
-* 📄 Leitura de arquivos TXT locais
-* 🌐 Leitura de arquivos TXT através de URL
-* 🔄 Interpretação dinâmica dos atributos
-* 📚 Utilização de Collections e Generics
-* 🔀 Utilização da Stream API
-* 🗂️ Organização dos registros utilizando `List<Map<String, String>>`
-* 🖥️ Exibição dos dados de forma organizada
+- 📄 Leitura de arquivos TXT locais
+- 🌐 Leitura de arquivos TXT através de URL
+- 🔄 Interpretação dinâmica dos atributos
+- 📚 Utilização de Collections e Generics
+- 🔀 Utilização da Stream API
+- 🗂️ Organização dos registros utilizando `List<Map<String, String>>`
+- 🖥️ Exibição dos dados de forma organizada
 
 ---
 
@@ -59,7 +56,7 @@ Cada linha seguinte representa um registro.
 
 ### Exemplo
 
-```text
+```
 id;nome;idade;cidade;linguagem
 1;Ryan;19;Londrina;Java
 2;Lucas;24;Curitiba;Python
@@ -68,7 +65,7 @@ id;nome;idade;cidade;linguagem
 
 O `;` é utilizado como delimitador entre os campos.
 
-### Regras atuais
+### Regras
 
 Para que o arquivo seja interpretado corretamente:
 
@@ -84,21 +81,21 @@ Para que o arquivo seja interpretado corretamente:
 
 Após a leitura, os registros são representados utilizando:
 
-```java
+```
 List<Map<String, String>>
 ```
 
 Por exemplo:
 
-```text
+```
 {id=1, nome=Ryan, idade=19, cidade=Londrina, linguagem=Java}
 {id=2, nome=Lucas, idade=24, cidade=Curitiba, linguagem=Python}
 ```
 
 Cada `Map` representa um registro, enquanto:
 
-* A chave representa o nome do atributo.
-* O valor representa o dado correspondente.
+- A chave representa o nome do atributo.
+- O valor representa o dado correspondente.
 
 Essa abordagem permite trabalhar com uma quantidade variável de atributos sem precisar definir previamente uma classe para representar os dados.
 
@@ -110,7 +107,7 @@ Além de arquivos locais, o projeto permite fornecer uma URL contendo o conteúd
 
 Exemplo:
 
-```text
+```
 https://exemplo.com/arquivo.txt
 ```
 
@@ -124,7 +121,7 @@ Dessa forma, independentemente da origem do arquivo, o resultado final mantém a
 
 Ao iniciar a aplicação:
 
-```text
+```
 ====== JAVA FILE READER ======
 Como deseja fornecer o arquivo?
 1 - Arquivo local
@@ -134,7 +131,7 @@ Insira sua opção:
 
 Após fornecer o arquivo, os dados são apresentados de forma organizada:
 
-```text
+```
 ========== INFORMAÇÕES ==========
 
 ---------------------------------
@@ -158,23 +155,19 @@ linguagem: Python
 
 ## 📁 Estrutura do projeto
 
-```text
+```
 java-file-reader/
 ├── data/
 │   └── infos
 ├── src/
 │   ├── fileReader/
 │   │   ├── LeitorArquivo.java
-│   │   ├── LeitorCSV.java
-│   │   ├── LeitorTXT.java
-│   │   └── LeitorXML.java
+│   │   └── LeitorTXT.java
 │   ├── source/
 │   │   └── FonteURL.java
 │   └── Main.java
 └── README.md
 ```
-
-> Alguns componentes estão presentes na estrutura do projeto como parte da evolução planejada, mas atualmente apenas a leitura de TXT está implementada.
 
 ---
 
@@ -182,41 +175,24 @@ java-file-reader/
 
 ### Linguagem
 
-* Java
+- Java
 
 ### Principais recursos utilizados
 
-* Java Collections
-* Generics
-* Stream API
-* `List`
-* `Map`
-* `LinkedHashMap`
-* `Files`
-* `Path`
-* `HttpClient`
-* `HttpRequest`
-* `HttpResponse`
-
----
-
-## 🚧 Próximos passos
-
-O projeto continuará sendo desenvolvido conforme novos conceitos forem estudados.
-
-Planejamento:
-
-* [ ] Tratamento de exceções
-* [ ] Validação dos dados de entrada
-* [ ] Suporte para arquivos CSV
-* [ ] Suporte para arquivos XML
-* [ ] Melhorias na apresentação dos dados
-* [ ] Outras funcionalidades relacionadas à leitura e manipulação de arquivos
+- Java Collections
+- Generics
+- Stream API
+- `List`
+- `Map`
+- `LinkedHashMap`
+- `Files`
+- `Path`
+- `HttpClient`
+- `HttpRequest`
+- `HttpResponse`
 
 ---
 
 ## 🎯 Objetivo
 
 O principal objetivo do projeto é colocar em prática conceitos de Java e desenvolvimento de software, explorando principalmente Collections, Generics, Stream API, manipulação de arquivos e comunicação HTTP.
-
-O projeto será evoluído gradualmente conforme novos conhecimentos forem adquiridos.
